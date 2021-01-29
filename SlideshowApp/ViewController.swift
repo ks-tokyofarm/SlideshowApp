@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var selectImg: UIImageView!
     
     var imgno:Int = 0               // 表示画像番号
-    let imgtbl = ["ofkph1466", "ofkph1750", "ofkph2328", "ofkph2351", "ofkph2360"]  // 画像名配列
+    let imgtbl = ["ofkph1466.jpg", "ofkph1750.jpg", "ofkph2328.jpg", "ofkph2351.jpg", "ofkph2360.jpg"]  // 画像名配列
 
     var timer: Timer!               // タイマー
     var timer_sec: Float = 0        // タイマー間隔（秒）
